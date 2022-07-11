@@ -1,0 +1,47 @@
+body, html {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#020024, #094d79, #00d4ff);
+}
+.bloco-form {
+    height: 150px;
+}
+form {
+    position: absolute;
+    margin: 300px auto;
+    height: 150px;
+    justify-items: center;
+    text-align: center;
+    width: 100%;
+}
+form input {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin: 0 282px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.botao-subtmit {
+    font-weight: bold;
+    background: orange;
+    border: none;
+    width: 10%;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 1s;
+}
+.botao-subtmit:hover {
+    background: darkorange;
+    transform: scale(1.2);
+}
